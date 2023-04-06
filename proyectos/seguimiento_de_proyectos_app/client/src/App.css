@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+}
+
+.active {
+  color: greenyellow;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* formulario */
+
+.formularioexamen-principal{
+  height: 70px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formularioexamen-principal p{
+  background-color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.formularioexamen-principal #enlace{
+  background-color: white;
+  font-size: 15px;
+  text-align: right;
+}
+
+.formularioexamen{
+  width: auto;  
+  margin: auto;
+  border-radius: 4px;
+  font-family:'calibri';
+  background-color: white;
+  border: 3px solid black;
+  margin-top: 10px;
+}
+
+
+.formularioexamen legend {
+  background-color: white;
+  color: black;
+  width: 200px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.formularioexamen button {
+  margin-left: 5px;
+  box-shadow: 7px 7px 7px black;
+  color:black;
+  font-weight: bold;
+}
+
+/* Listado */
+
+.listadoexamen-principal{
+  height: 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.listadoexamen-principal p{
+  background-color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.listadoexamen-principal #enlace{
+  background-color: white;
+  font-size: 15px;
+  text-align: right;
+}
+
+.listadoexamen{
+  width: auto;  
+  margin: auto;
+  border-radius: 4px;
+  font-family:'calibri';
+  background-color: white;
+  border: 3px solid black;
+  margin-top: 10px;
+}
+
+.listadoexamen legend {
+  background-color: white;
+  color: black;
+  width: 200px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.listadoexamen button {
+  width: 180px;
+  height: 30px;
+  font-weight: bold;
+  display: flex;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+.listadoexamen :link{
+  text-decoration: none;
+}
+
+.listadoexamen a{
+  color: black;
+}
+
+.listadoexamen a:hover{
+  color: black;
+}
+
+.listadoexamen a:active{
+  color: black;
+}
+
+
+/* TablaListadoGenerico */
+.tablaListadoGenerico{
+  width: 100%;
+  background-color: white;
+}
+
+.tablaListadoGenerico th{
+ border: 2px solid black;
+}
+
+.tablaListadoGenerico #A{
+  background-color: skyblue;
+}
+.tablaListadoGenerico #B{
+  background-color: rgb(235, 210, 99);
+}
+.tablaListadoGenerico #C{
+  background-color: palegreen;
+}
+
+.tablaListadoGenerico tbody{
+  background-color: white;
+}
+
+.tablaListadoGenerico td{
+  border: 1px solid black;
+ }
+
+.tablaListadoGenerico #E{
+  padding: 2px;
+  width: 100%;
+  background-color: white;
+}
+
+/* Generar cuadritos para los datos dentro de una columna */
+.cuadrito{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin:auto;
+  border: 1px solid black;
+  font-size: 10px;
+  width: 200px;
+  height: 120px;
+  background-color: white;
+}
+
+.cuadrito button{
+  color:black;
+}
+
+
+.cuadrito button p{
+  font-size: 30px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
